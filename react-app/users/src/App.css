@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania|Montserrat&display=swap');
+
+body{
+  background: #1A3154;
+  color: whitesmoke;
+}
+
+.App {
+  text-align: center;
+}
+
+h1{
+  font-family: 'Metal Mania', cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+
+.user-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.user{
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  width: 400px;
+  height: 260px;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button{
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid whitesmoke;
+  margin: 0 auto;
+  width: 250px;
+  border-radius: 5px;
+}
+
+
